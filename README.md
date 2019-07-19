@@ -1,5 +1,7 @@
 # 2D_FPE_Solver
 
+This repository is a Matlab solver for two dimensional Fokker-Planck equation using alternating direction implicit (ADI) method
+
 ## Usage
 
 1. Uncomment one of the parameters setting section in solve_2D_FPE.m: 
@@ -36,3 +38,6 @@ As a result, for f1 = 0.5*x1+x2, x1_dt should be: [0.5, 1, 0; 1, 0, 1] (Same met
 - Parameter N2 = # of grids for x2
 - Parameter mu = mean of Gaussian (initial condition)
 - Parameter sigma = covariance of Gaussian (initial condition)
+
+## Reference Paper
+Pichler, Lukas, Arif Masud, and Lawrence A. Bergman. "Numerical solution of the Fokker–Planck equation by finite difference and finite element methods—a comparative study." Computational Methods in Stochastic Dynamics. Springer, Dordrecht, 2013. 69-85.
