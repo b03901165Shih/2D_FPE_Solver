@@ -39,5 +39,15 @@ As a result, for f1 = 0.5*x1+x2, x1_dt should be: [0.5, 1, 0; 1, 0, 1] (Same met
 - Parameter mu = mean of Gaussian (initial condition)
 - Parameter sigma = covariance of Gaussian (initial condition)
 
+## Results
+
+Bimodal Oscillator:
+
+<p align="left">
+    <img width="40%" height="40%" src="https://github.com/b03901165Shih/2D_FPE_Solver/blob/master/videos/bimodal.gif" />
+    <img width="40%" height="40%" src="https://github.com/b03901165Shih/2D_FPE_Solver/blob/master/videos/bimodal_top.gif" />
+</p>
+
+
 ## Reference Paper
 Pichler, Lukas, Arif Masud, and Lawrence A. Bergman. "Numerical solution of the Fokker–Planck equation by finite difference and finite element methods—a comparative study." Computational Methods in Stochastic Dynamics. Springer, Dordrecht, 2013. 69-85.
